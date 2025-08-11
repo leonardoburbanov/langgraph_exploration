@@ -5,6 +5,9 @@ description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.13"
 dependencies = [
+    "chromadb>=1.0.16",
     "ddgs>=9.4.3",
+    "langchain-tavily>=0.2.11",
     "langgraph>=0.6.0",
+    "pypdf>=5.9.0",
 ]
